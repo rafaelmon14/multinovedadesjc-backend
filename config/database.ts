@@ -25,12 +25,12 @@ export default ({ env }) => {
     postgres: {
       connection: {
         connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'localhost'),
+        host: env('DATABASE_HOST', 'dpg-d0ejeoidbo4c738ol480-a'),
         port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME', 'strapi'),
-        user: env('DATABASE_USERNAME', 'strapi'),
-        password: env('DATABASE_PASSWORD', 'strapi'),
-        ssl: env.bool('DATABASE_SSL', false) && {
+        database: env('DATABASE_NAME', 'multinovedadesjc_db'),
+        user: env('DATABASE_USERNAME', 'multinovedadesjc_db_user'),
+        password: env('DATABASE_PASSWORD', 'vuQisIunQKUmrmPo0I2Gk3r2R71jf94C'),
+        ssl: env.bool('DATABASE_SSL', true) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
           ca: env('DATABASE_SSL_CA', undefined),
