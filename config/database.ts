@@ -30,7 +30,7 @@ export default ({ env }) => {
         database: env('DATABASE_NAME', 'multinovedadesjc_db'),
         user: env('DATABASE_USERNAME', 'multinovedadesjc_db_user'),
         password: env('DATABASE_PASSWORD', 'vuQisIunQKUmrmPo0I2Gk3r2R71jf94C'),
-        ssl: env.bool('DATABASE_SSL', true) && {
+        ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
           ca: env('DATABASE_SSL_CA', undefined),
