@@ -7,8 +7,7 @@ module.exports = [
       origin: [
         'http://localhost:3000', 
         '127.0.0.1',
-        'ea8a-190-12-13-23.ngrok-free.app',
-        'https://ea8a-190-12-13-23.ngrok-free.app'
+        'https://multinovedadesjc.vercel.app/'
         
       ],
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
