@@ -10,8 +10,9 @@ module.exports = ({ env }) => ({
   },
   // Agrega esta configuración
   allowedHosts: [
+    'https://multinovedadesjc.vercel.app',
     'localhost',
     '127.0.0.1',
-    'https://multinovedadesjc.vercel.app/'
+    
   ],
 });

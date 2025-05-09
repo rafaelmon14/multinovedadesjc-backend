@@ -5,12 +5,15 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       origin: [
+        'https://multinovedadesjc.vercel.app',
         'http://localhost:3000', 
         '127.0.0.1',
-        'https://multinovedadesjc.vercel.app/'
+        
         
       ],
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
+      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
+      keepHeaderOnError: true,
       
     },
   },
